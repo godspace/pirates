@@ -3,6 +3,7 @@ from game_map import MapTiles
 from city import City
 from boat import Boat
 from random import *
+#test comment
 
 pygame.font.init()
 font = pygame.font.Font(None, 30)
