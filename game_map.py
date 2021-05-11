@@ -24,6 +24,7 @@ class MapTiles():
         self.city_S = []
         self.city_W = []
         self.city_list = []
+        self.tile_size = tile_size
         self.w = round(W/tile_size)
         self.h = round(H/tile_size)
         self.size = tile_size
@@ -98,7 +99,7 @@ class MapTiles():
                             self.city_S[len(self.city_S)//4],
                             self.city_S[-len(self.city_S)//4]]
         for city in self.city_list:
-            city.city == True
+            city.city = True
 if __name__ == "__main__":
     W = 800
     H = 800
